@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test-runner-3(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+        <include name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.endtoendtest.EndToEndTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.endtoendtest.EndToEndTest -->
+      <class name="com.crm.organizationtest.OrganizationTest">
+        <methods>
+          <include name="createOrganizationWithOrganizationTypeTest"/>
+          <include name="configBC"/>
+          <include name="configBM"/>
+          <include name="createOrganizationTest"/>
+        </methods>
+      </class> <!-- com.crm.organizationtest.OrganizationTest -->
+      <class name="com.crm.contacttest.ContactTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.contacttest.ContactTest -->
+    </classes>
+  </test> <!-- Test-runner-3(failed) -->
+  <test name="Test-runner-2(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+        <include name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.endtoendtest.EndToEndTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBM"/>
+          <include name="deleteOrgWhenOrgContainsContact_OpertunityTest"/>
+          <include name="createOpertunityUsingOrgCompaignTest"/>
+        </methods>
+      </class> <!-- com.crm.endtoendtest.EndToEndTest -->
+      <class name="com.crm.contacttest.ContactTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.contacttest.ContactTest -->
+      <class name="com.crm.organizationtest.OrganizationTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.organizationtest.OrganizationTest -->
+    </classes>
+  </test> <!-- Test-runner-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

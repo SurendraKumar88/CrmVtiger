@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[read test data from excel]]>
+    </line>
+    <line>
+      <![CDATA[navigate to contacts page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to create contact page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to save]]>
+    </line>
+    <line>
+      <![CDATA[capture actuval contact name]]>
+    </line>
+    <line>
+      <![CDATA[verifying contact name]]>
+    </line>
+    <line>
+      <![CDATA[read test data from excel]]>
+    </line>
+    <line>
+      <![CDATA[navigate to contacts page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to create contact page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to save]]>
+    </line>
+    <line>
+      <![CDATA[capture the data from contactInformation page]]>
+    </line>
+    <line>
+      <![CDATA[verifying contact name]]>
+    </line>
+    <line>
+      <![CDATA[verifying image]]>
+    </line>
+    <line>
+      <![CDATA[read test data from excel]]>
+    </line>
+    <line>
+      <![CDATA[navigate to organization page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to create organization page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to save]]>
+    </line>
+    <line>
+      <![CDATA[navigate to contacts page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to create contact page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to save]]>
+    </line>
+    <line>
+      <![CDATA[capture the data from contactInformation page]]>
+    </line>
+    <line>
+      <![CDATA[verifying contact name]]>
+    </line>
+    <line>
+      <![CDATA[verifying Organization name]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="136810" started-at="2018-03-03T06:07:14Z" finished-at="2018-03-03T06:09:31Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.createContactTest()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="createContactTest" class="com.crm.contacttest.ContactTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="ContactTest.createContactWithImageTest()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="createContactWithImageTest" class="com.crm.contacttest.ContactTest"/>
+        <method signature="ContactTest.createContactWithOrganizationTest()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="createContactWithOrganizationTest" class="com.crm.contacttest.ContactTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Default test" duration-ms="136810" started-at="2018-03-03T06:07:14Z" finished-at="2018-03-03T06:09:31Z">
+      <class name="com.crm.contacttest.ContactTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configBC" is-config="true" duration-ms="18491" started-at="2018-03-03T11:37:14Z" finished-at="2018-03-03T11:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configBM" is-config="true" duration-ms="13743" started-at="2018-03-03T11:37:33Z" finished-at="2018-03-03T11:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="createContactTest" duration-ms="33409" started-at="2018-03-03T11:37:46Z" finished-at="2018-03-03T11:38:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[read test data from excel]]>
+            </line>
+            <line>
+              <![CDATA[navigate to contacts page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to create contact page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to save]]>
+            </line>
+            <line>
+              <![CDATA[capture actuval contact name]]>
+            </line>
+            <line>
+              <![CDATA[verifying contact name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configAM" is-config="true" duration-ms="570" started-at="2018-03-03T11:38:20Z" finished-at="2018-03-03T11:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configBM" is-config="true" duration-ms="6197" started-at="2018-03-03T11:38:20Z" finished-at="2018-03-03T11:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactWithImageTest()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="createContactWithImageTest" duration-ms="25675" started-at="2018-03-03T11:38:27Z" finished-at="2018-03-03T11:38:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[read test data from excel]]>
+            </line>
+            <line>
+              <![CDATA[navigate to contacts page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to create contact page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to save]]>
+            </line>
+            <line>
+              <![CDATA[capture the data from contactInformation page]]>
+            </line>
+            <line>
+              <![CDATA[verifying contact name]]>
+            </line>
+            <line>
+              <![CDATA[verifying image]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithImageTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configAM" is-config="true" duration-ms="607" started-at="2018-03-03T11:38:52Z" finished-at="2018-03-03T11:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configBM" is-config="true" duration-ms="4853" started-at="2018-03-03T11:38:53Z" finished-at="2018-03-03T11:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactWithOrganizationTest()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="createContactWithOrganizationTest" duration-ms="31002" started-at="2018-03-03T11:38:58Z" finished-at="2018-03-03T11:39:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[read test data from excel]]>
+            </line>
+            <line>
+              <![CDATA[navigate to organization page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to create organization page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to save]]>
+            </line>
+            <line>
+              <![CDATA[navigate to contacts page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to create contact page]]>
+            </line>
+            <line>
+              <![CDATA[navigate to save]]>
+            </line>
+            <line>
+              <![CDATA[capture the data from contactInformation page]]>
+            </line>
+            <line>
+              <![CDATA[verifying contact name]]>
+            </line>
+            <line>
+              <![CDATA[verifying Organization name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configAM" is-config="true" duration-ms="623" started-at="2018-03-03T11:39:29Z" finished-at="2018-03-03T11:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.contacttest.ContactTest@59f99ea]" name="configAC" is-config="true" duration-ms="1575" started-at="2018-03-03T11:39:29Z" finished-at="2018-03-03T11:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.contacttest.ContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
