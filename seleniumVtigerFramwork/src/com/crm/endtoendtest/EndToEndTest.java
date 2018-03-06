@@ -61,7 +61,7 @@ public class EndToEndTest extends BaseClass{
 		
 		Reporter.log("navigate to create opportunities name",true);
 		CreateNewOpportunitiesPage cnop=PageFactory.initElements(driver, CreateNewOpportunitiesPage.class);
-		cnop.navigateTosave(oppertunityName, organizationName);
+		cnop.navigateTosave(oppertunityName, organizationName, campaignName);
 		
 		Reporter.log("navigate to opportunities information page",true);
 		OpportunitiesInformationPage opip=PageFactory.initElements(driver, OpportunitiesInformationPage.class);
@@ -169,7 +169,7 @@ public class EndToEndTest extends BaseClass{
 		}
 		
 		Reporter.log("verifying opportunity name",true);
-		sAssert.assertNotEquals(actOpportunityName, oppertunityName);
+		sAssert.assertFalse(actOpportunityName, "");
 		
 		comUtils.setExcelData("testData", 6, 13, "Pass");
 		sAssert.assertAll();

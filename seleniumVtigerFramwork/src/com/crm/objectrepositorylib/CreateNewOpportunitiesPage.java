@@ -49,5 +49,30 @@ public class CreateNewOpportunitiesPage extends WebdriverCommonLib{
 		
 			savaBtn.click();
 		}
+		
+		public void navigateTosave(String oppertunityName,String organizationName,String campaignName)
+		{
+			opportunityNameEdt.sendKeys(oppertunityName);
+			organizationPlusSymbolBtn.click();
+			
+			swithTOChildWindow();
+			newWindowFirstSearchTbx.sendKeys(organizationName);
+			dropDownVisibleText(newWindowDropDownSlt, "Organization Name");
+			newWindowSearchBtn.click();
+			BaseClass.driver.findElement(By.linkText(organizationName)).click();
+			swithBackToParentId();
+			
+			campaignPlusSymbolBtn.click();
+			
+			swithTOChildWindow();
+			newWindowFirstSearchTbx.sendKeys(campaignName);
+			dropDownVisibleText(newWindowDropDownSlt, "Campaign Name");
+			newWindowSearchBtn.click();
+			BaseClass.driver.findElement(By.linkText(campaignName)).click();
+			swithBackToParentId();
+		
+			savaBtn.click();
+		}
+
 
 }
